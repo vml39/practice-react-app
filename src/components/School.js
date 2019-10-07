@@ -17,6 +17,10 @@ class School extends React.Component {
     // TODO
   }
 
+  componentDidUpdate () {
+    this.yearToSemester();
+  }
+
   render () {
     return (
       <div className='school'> 
@@ -25,10 +29,8 @@ class School extends React.Component {
         <input onClick={this.addYear}></input>
         <img src='images/cornell.jpg' />
       </div>
-      
     );
   }
-
 }
 
 export default School
