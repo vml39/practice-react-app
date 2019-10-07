@@ -20,3 +20,13 @@
 .App-link {
   color: #09d3ac;
 }
+
+.city {
+  margin-top: 20px;
+}
+
+.city img {
+  display: block;
+  width: 40%;
+  margin: 20px 30%;
+}
