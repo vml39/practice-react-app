@@ -6,7 +6,7 @@ class City extends React.Component {
   render () {
     return (
       <div className='city'>
-        We live in {this.props.name} with a population of {this.props.population}. The weather here is often {this.props.weather}. 
+        We live in {/*TODO*/} with a population of {/*TODO*/}. The weather here is often {/*TODO*/}. 
         <img src='images/ithaca.jpg' />
         <hr/>
 
